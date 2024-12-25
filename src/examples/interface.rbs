@@ -1,0 +1,6 @@
+# test.rbs
+class User
+  def initialize: (String name, ?Integer age) -> void
+
+  def name: -> String
+end

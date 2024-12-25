@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TypeProf demo</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <div class="root">
+    <nav>
+      <h1><a href="https://mame.github.io/typeprof.wasm/">TypeProf demo</a></h1>
+      <p id="error">
+        ⚠ An internal error occured in typeprof.
+        Reload if necessary.
+      </p>
+      <select id="select-example">
+        <option value="hello">Hello world</option>
+        <option value="explicit">Type annotation</option>
+        <option value="union">Union and flow analysis</option>
+        <option value="array">Array</option>
+        <option value="tuple">Tuple and record</option>
+        <option value="interface">Interface</option>
+      </select>
+    </nav>
+    <main id="main">
+      <div id="progress">
+        <ul>
+          <li id="progress-load-wasm">Load ruby.wasm</li>
+          <li id="progress-init-wasm">Initialize ruby.wasm</li>
+          <li id="progress-load-typeprof">Load TypeProf</li>
+          <li id="progress-init-typeprof">Initialize TypeProf</li>
+          <li id="progress-start-typeprof">Start TypeProf</li>
+        </ul>
+      </div>
+      <div class="panes">
+        <div class="pane">
+          <p>rbs</p>
+          <div class="editor-container">
+            <div id="rbs-editor" class="editor"></div>
+          </div>
+        </div>
+        <div class="pane">
+          <p>rb</p>
+          <div class="editor-container">
+            <div id="rb-editor" class="editor"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+{
+  "name": "typeprof.wasm",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite --config vite.config.prod build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@codingame/esbuild-import-meta-url-plugin": "~1.0.2",
+    "@types/vscode": "~1.95.0",
+    "typescript": "~5.7.2",
+    "vite": "~6.0.3",
+    "vscode-languageserver-types": "~3.17.5"
+  },
+  "dependencies": {
+    "@codingame/monaco-vscode-configuration-service-override": "~11.1.2",
+    "@codingame/monaco-vscode-files-service-override": "~11.1.2",
+    "@codingame/monaco-vscode-keybindings-service-override": "~11.1.2",
+    "@codingame/monaco-vscode-lifecycle-service-override": "~11.1.2",
+    "@codingame/monaco-vscode-localization-service-override": "~11.1.2",
+    "@codingame/monaco-vscode-rollup-vsix-plugin": "^11.1.2",
+    "@codingame/monaco-vscode-ruby-default-extension": "~11.1.2",
+    "@codingame/monaco-vscode-standalone-json-language-features": "~11.1.2",
+    "@codingame/monaco-vscode-standalone-languages": "~11.1.2",
+    "@codingame/monaco-vscode-standalone-typescript-language-features": "~11.1.2",
+    "@codingame/monaco-vscode-textmate-service-override": "~11.1.2",
+    "@codingame/monaco-vscode-theme-defaults-default-extension": "~11.1.2",
+    "@codingame/monaco-vscode-theme-service-override": "~11.1.2",
+    "@codingame/monaco-vscode-typescript-basics-default-extension": "~11.1.2",
+    "@codingame/monaco-vscode-typescript-language-features-default-extension": "~11.1.2",
+    "@ruby/head-wasm-wasi": "^2.7.0",
+    "monaco-editor": "npm:@codingame/monaco-vscode-editor-api@~11.1.2",
+    "monaco-editor-wrapper": "~6.0.0",
+    "monaco-languageclient": "~9.0.0",
+    "vscode": "npm:@codingame/monaco-vscode-api@~11.1.2",
+    "vscode-languageclient": "~9.0.1",
+    "vscode-languageserver": "~9.0.1",
+    "vscode-uri": "~3.0.8"
+  }
+}
