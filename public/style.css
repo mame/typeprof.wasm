@@ -157,3 +157,7 @@ li.finished::before {
 .monaco-editor {
 	position: absolute !important;
 }
+
+footer {
+  text-align: center;
+}
