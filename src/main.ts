@@ -5,7 +5,7 @@ import rb_hello from './examples/hello.rb?raw';
 import rb_explicit from './examples/explicit.rb?raw';
 import rb_union from './examples/union.rb?raw';
 import rb_array from './examples/array.rb?raw';
-import rb_tuple from './examples/array.rb?raw';
+import rb_tuple from './examples/tuple.rb?raw';
 import rbs_interface from './examples/interface.rbs?raw';
 import rb_interface from './examples/interface.rb?raw';
 
